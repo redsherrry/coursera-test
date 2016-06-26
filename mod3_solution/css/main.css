@@ -1,0 +1,47 @@
+nav.navbar.navbar-default{
+	background-color: #B284BE;
+}
+div.navbar-header{
+	background-color: #B284BE;
+}
+
+.navbar-brand {
+	font-size: 1.5em;
+}
+
+div.col-xs-12 {
+	box-sizing: border-box;
+	background-color: #CD9575;
+		
+}
+
+div#bs-nav-collapse.navbar-collapse.collapse.in{
+ 	background-color: yellow;
+
+ }
+
+ li a {
+ 	background-color: yellow;
+ }
+
+hr {
+  margin: 0;
+}
+ /*----Media Queries-----*/
+}
+@media (min-width: @screen-sm-min) { 
+div#bs-nav-collapse.navbar-collapse.collapse.in{
+ 	background-color: #B284BE;
+ }
+
+ }
+
+ @media (max-width: 767px) { 
+        .container-fluid {
+        	width: 75%;
+        }
+        
+        section {
+        	margin-top: 25px;
+        }
+  }
